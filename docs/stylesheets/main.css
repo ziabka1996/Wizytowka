@@ -1,0 +1,119 @@
+* {
+  font-family: 'Hind';
+}
+
+body {
+  padding-top: 56px;
+}
+
+hr {
+  margin-top: 0 !important;
+  margin-left: 2em !important;
+  margin-bottom: 0 !important;
+  margin-right: 2em !important;
+}
+
+#showcase ul {
+  list-style-type: none;
+}
+
+#showcase span {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#showcase li {
+  font-size: 0.85em;
+}
+
+#showcaseContainer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#contactDetails {
+  padding-top: 1em;
+}
+
+.center {
+  text-align: center;
+  padding: 1.5em;
+}
+
+.left {
+  padding: 1.5em;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size: 1.2em;
+}
+
+.circle {
+  margin:auto;
+  background-color: rgb(50,50,100);
+  height: .4em;
+  width: .4em;
+  border-radius: .2em;
+}
+
+.date {
+  font-size: .7em;
+}
+
+.info-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.info-detail {
+  font-size: 0.7em;
+  font-style: italic;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+.full-width {
+   width: 100vw;
+   position: relative;
+   left: 50%;
+   margin-left: -50vw;
+}
+
+#backgroundImage {
+  object-fit: none;
+  width: 100%;
+  height: 36em;
+  position: absolute;
+}
+
+#showcase {
+  min-height: 30em;
+  background: rgba(225,225,225,.95);
+  position: relative;
+  padding: 3em;
+}
+
+#portraitContainer {
+  height:24em;
+}
+
+#portrait {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.section:nth-child(2n+0) {
+  background-color: rgb(215, 215, 220);
+}
+
+.section:nth-child(2n+1) {
+  background-color: rgb(235, 235, 240);
+}
